@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.lidiwen:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_lidiwen_war</output-path>
+    <root id="archive" name="com.lidiwen_war.war">
+      <element id="artifact" artifact-name="com.lidiwen:war exploded" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-4.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-examples-4.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-excelant-4.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-4.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-schemas-4.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-scratchpad-4.0.0.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-contrib-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-examples-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-ooxml-schemas-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/poi-scratchpad-3.6-20091214.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/WEB-INF/lib/jedis-2.9.0.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
